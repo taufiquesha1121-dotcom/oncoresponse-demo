@@ -1,0 +1,9 @@
+model,cohort,threshold_rule,threshold,roc_auc,pr_auc,sensitivity,specificity,ppv,npv,brier,n,n_pcr,nested_cv_auc_discovery
+elasticnet,discovery_insample,0.5,0.5,0.8916,0.7445,0.0702,1.0,1.0,0.8245,0.1096,306,57,0.758
+elasticnet,discovery_insample,youden_on_discovery,0.2586,0.8916,0.7445,0.8246,0.8072,0.4947,0.9526,0.1096,306,57,0.758
+elasticnet,validation,0.5,0.5,0.7497,0.4907,0.0714,0.9857,0.6,0.7797,0.1546,182,42,0.758
+elasticnet,validation,youden_on_discovery,0.2586,0.7497,0.4907,0.5238,0.7929,0.4314,0.8473,0.1546,182,42,0.758
+randomforest,discovery_insample,0.5,0.5,1.0,1.0,0.807,1.0,1.0,0.9577,0.0472,306,57,0.7855
+randomforest,discovery_insample,youden_on_discovery,0.3218,1.0,1.0,1.0,1.0,1.0,1.0,0.0472,306,57,0.7855
+randomforest,validation,0.5,0.5,0.7017,0.4487,0.0,1.0,,0.7692,0.162,182,42,0.7855
+randomforest,validation,youden_on_discovery,0.3218,0.7017,0.4487,0.381,0.8571,0.4444,0.8219,0.162,182,42,0.7855
